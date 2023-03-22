@@ -6,7 +6,7 @@ const roomAlphabet = ref('')
 
 const getRoomAlphabet = async () => {
   try {
-    const endpoint = 'https://script.google.com/macros/s/AKfycbx-_hn1fTwn0FRhky0MT9eIHTM7KyuX0hxSeF11lwoYGzTALxFXFLFd9H3RTCZAon743A/exec';
+    const endpoint = 'https://script.google.com/macros/s/AKfycbxylbpNJqlMIIf-h2xwm9PngXh5l_rmYdBE0GcCLJ78G6lh6XGQUKQZAsaJ4cCB8zT5Kg/exec';
     const response = await axios.get(endpoint);
     roomAlphabet.value = response.data;
   } catch (error) {
