@@ -22,7 +22,7 @@ onMounted(getRoomAlphabet)
     <div class="content">
       <h1>あなたのブレイクアウトルームのテーブルは?</h1>
       <p>{{ roomAlphabet }}</p>
-      <a href="http://">ブレイクアウトルーム部屋数調整</a>
+      <a href="https://docs.google.com/spreadsheets/d/1e8BMErQ5ZjZmexTv3VfLQCR4U_tjeyHn4TGrSc0wUAk/edit?usp=sharing">ブレイクアウトルーム部屋数調整</a>
     </div>
   </div>
 </template>
