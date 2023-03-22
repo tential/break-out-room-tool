@@ -6,7 +6,7 @@ import vueJsx from '@vitejs/plugin-vue-jsx'
 
 // https://vitejs.dev/config/
 export default defineConfig({
-  base: "break-out-room-tool",
+  base: "/break-out-room-tool",
   plugins: [vue(), vueJsx()],
   resolve: {
     alias: {
